@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 450px;
+    object-fit: cover;
+}
+
+.breed-select {
+    margin-top: 40px;
+    max-width: 450px;
+}
+
+.cat-info {
+    display: flex;
+    gap: 20px;
+}
+
+.temperament-label {
+    font-weight: 600;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.error {
+    font-weight: 16px;
+    font-weight: 500;
+    color: red;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 400px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #000 #0000;
+    animation: l1 1s infinite;
+}
+
+@keyframes l1 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
